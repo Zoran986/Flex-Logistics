@@ -39,11 +39,11 @@
                     </p>
                     <p class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-3 text-blue-400" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0 8c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
-                        Email: <a href="mailto:info@traksi.com" class="hover:underline ml-1">info@traksi.com</a>
+                        Email: <a href="mailto:info@flexlogistics.com" class="hover:underline ml-1">info@flexlogistics.com</a>
                     </p>
                     <p class="flex items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-3 text-blue-400" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                         {{ __('messages.phone') }} <a href="tel:+38975321222" class="hover:underline ml-1">(+389) 75321-222</a>
+                         {{ __('messages.phone') }} <a href="tel:+38975999222" class="hover:underline ml-1">(+389) 75999-222</a>
                     </p>
                 </address>
             </div>
@@ -54,7 +54,7 @@
                 <div class="flex space-x-4 mb-6">
                     <!-- Placeholder Social Icons (use actual links) -->
                   
-                <a href="https://www.facebook.com/TraksiLtd" target="_blank" rel="noopener noreferrer" 
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" 
        aria-label="Visit us on Facebook"
        class="text-blue-400 hover:text-blue-600 transition duration-300 transform hover:scale-110">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -64,7 +64,7 @@
     </a>
 
     <!-- Instagram Icon (Updated to outline style) -->
-    <a href="https://www.facebook.com/traksiltd/?locale=mk_MK" target="_blank" rel="noopener noreferrer" 
+    <a href="https://www.instagram.com/?locale=mk_MK" target="_blank" rel="noopener noreferrer" 
        aria-label="Visit us on Instagram"
        class="text-blue-400 hover:text-blue-600 transition duration-300 transform hover:scale-110">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -83,7 +83,7 @@
         </div>
         
         <div class="border-t border-blue-800 mt-12 pt-6 text-center">
-            <p class="text-blue-300 text-sm"> &copy;  {{ date('Y') }}  Traksi Ltd.</p>
+            <p class="text-blue-300 text-sm"> &copy;  {{ date('Y') }}  Flex Logistics Ltd.</p>
         </div>
     </div>
 

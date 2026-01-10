@@ -15,6 +15,7 @@ return [
     'login'      => 'Login',
     'register'   => 'Register',
     'what_we_offer_title' => 'What We Offer',
+    'learn_more_about' => 'Learn more about Flex Logistics →',
 
     // Slider
     'slider1_title' => 'Reliable Regional Transport',
@@ -32,7 +33,7 @@ return [
     // Section titles
     'what_we_offer_title' => 'What We Offer',
 
-    'what_we_offer_text' => 'From single car transport to large fleet movements, Traksi ensures professional handling every time.',
+    'what_we_offer_text' => 'From single car transport to large fleet movements, Flex Logistics ensures professional handling every time.',
 
     // Services
     'service1_title' => 'Secure Transport',
@@ -49,14 +50,14 @@ return [
     'on_time_delivery' => 'On-Time Delivery',
 
     // About link
-     'footer_company_title' => 'Traksi ltd',
-    'footer_company_description' => 'Your trusted partner in dependable transportation and comprehensive logistics solutions since 2019. Committed to timely and secure delivery across the region.','Learn more about the Traksi difference →',
+     'footer_company_title' => 'Flex Logistics Ltd',
+    'footer_company_description' => 'Your trusted partner in dependable transportation and comprehensive logistics solutions since 2019. Committed to timely and secure delivery across the region.','Learn more about the Flex Logistics difference →',
 
     'quick_links' => 'Quick Links',
    
 
     'get_in_touch' => 'Get In Touch',
-    'address' => 'Str. Dimo Hadzi Dimov 71, 1000 Skopje, North Macedonia',
+    'address' => 'Str. Dimo Hadzi Dimov 100, 1000 Skopje, North Macedonia',
     'phone' => 'Phone:',
 
     'follow_us' => 'Follow Us',
@@ -65,12 +66,11 @@ return [
 
     'rights_reserved' => 'All rights reserved.',
 
-    'about_header_title' => 'Driving Forward: The Traksi Story',
+    'about_header_title' => 'Driving Forward: The Flex Logistics Story',
     'about_header_desc' => 'A dedication to timely delivery, professional service, and operational excellence defines everything we do.',
 
     'about_section1_title' => 'Our Journey: From single truck to fleet leader',
-    'about_section1_text' => 'Founded in 2019, Traksi Ltd began as a small, driven family-owned trucking company with just one dedicated vehicle and a bold vision for the future of regional logistics. Through unwavering dedication to customer service and a focus on operational excellence, we have rapidly expanded. Today, we proudly operate a modern fleet of 7 state-of-the-art trucks, cementing our position as a leader in reliable transportation solutions across the country  and region.',
-
+    'about_section1_text' => 'Founded in 2019, Flex Logistics Ltd began as a small, driven family-owned trucking company with just one dedicated vehicle and a bold vision for the future of regional logistics. Through unwavering dedication to customer service and a focus on operational excellence, we have rapidly expanded. Today, we proudly operate a modern fleet of 7 state-of-the-art trucks, cementing our position as a leader in reliable transportation solutions across the country  and region.',
     'about_section2_title' => 'Mission, Vision, and Core Values',
 
     'mission_title' => 'Our Mission',
@@ -94,7 +94,7 @@ return [
     'fleet_point3' => 'Continuous Driver Training for optimized safety.',
     
     'team_title' => 'The People Behind the Promise',
-    'team_text' => 'Our success is truly driven by our exceptional team. From our experienced, certified drivers who navigate complex routes daily, to our dedicated logistics experts who plan and coordinate every shipment, and our responsive support staff—everyone at Traksi is committed to delivering excellence. We invest in our people because we know that human expertise is the heart of reliable logistics.',
+    'team_text' => 'Our success is truly driven by our exceptional team. From our experienced, certified drivers who navigate complex routes daily, to our dedicated logistics experts who plan and coordinate every shipment, and our responsive support staff—everyone at Flex Logistics Ltd is committed to delivering excellence. We invest in our people because we know that human expertise is the heart of reliable logistics.',
 
     'cta_ready' => 'Ready to partner with a trusted leader in transportation?',
     'cta_button' => 'Contact Us Today for a Quote',
@@ -123,19 +123,19 @@ return [
             'cards_text6' => 'Focused on the final stage of delivery, guaranteeing safe and timely arrival.',
         
      //  contact
-     'header_title' => 'Get in Touch with Traksi',
+     'header_title' => 'Get in Touch with Flex Logistics',
     'header_text' => "We're here to answer your questions and help you with your logistics needs.",
 
     'details_title' => 'Our Details',
 
     'hq_title' => 'Headquarters',
-    'hq_address' => 'Str. Dimo Hadzi Dimov no. 71, 1000 Skopje, North Macedonia',
+    'hq_address' => 'Str. Dimo Hadzi Dimov no. 100, 1000 Skopje, North Macedonia',
 
     'phone_title' => 'Phone',
-    'phone_number' => '(+389) 75321-222',
+    'phone_number' => '(+389) 75999-222',
 
     'email_title' => 'Email',
-    'email_address' => 'info@traksi.com',
+    'email_address' => 'info@flexlogistics.com',
 
     'hours_title' => 'Operating Hours',
     'hours_week' => 'Monday - Friday: 8:00 AM - 4:00 PM',

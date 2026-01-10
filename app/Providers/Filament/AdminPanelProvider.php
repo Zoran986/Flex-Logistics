@@ -35,7 +35,7 @@ class AdminPanelProvider extends PanelProvider
             ->databaseNotificationsPolling('30s[')
             ->databaseNotifications() // важи за DB bell
             ->topbar(true)
-            ->brandLogo(asset('images/traksi-1.jpg'))
+            ->brandLogo(asset('images/flex-logo.png'))
             ->brandLogoHeight('40px') 
             ->colors([
                 'primary' => Color::Amber,

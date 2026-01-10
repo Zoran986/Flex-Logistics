@@ -4,7 +4,7 @@
             <div class="flex items-center space-x-2">
                 <!-- Logo Image -->
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('images/traksi-1.jpg') }}" 
+                    <img src="{{ asset('images/flex-logo.png') }}" 
                          alt="Traksi Logo" 
                          class="h-12 w-auto rounded-lg o"> <!-- Added rounded corners for style -->
                 </a>

@@ -24,7 +24,7 @@
         
         <div class="mt-6 pt-6 border-t border-gray-200">
             <p class="text-sm text-gray-500">
-                This message was sent via the contact form on the Traksi website.
+                This message was sent via the contact form on the Flex Logistics website.
             </p>
         </div>
     </div>

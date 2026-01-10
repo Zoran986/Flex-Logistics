@@ -7,8 +7,9 @@
 </head>
 <body class="p-10 text-gray-900 relative">
 
-   
-    <img class="block mx-auto"  src="{{ public_path('images/traksi-1.jpg') }}" alt="Лого на компанијата" >
+
+
+    <img class="block mx-auto"  src="{{ public_path('images/flex-logo.png') }}" alt="Лого на компанијата" >
     
     <div class="mt-2">
         <p>Друштво за транспорт и услуги</p>

@@ -36,7 +36,7 @@
                             </svg>
                             <div>
                                 <h3 class="font-semibold text-gray-800">{{ __('messages.phone_title') }}</h3>
-                                <a href="tel:+38975321222" class="text-blue-600 hover:text-blue-800 transition">(+389) 75321-222</a>
+                                <a href="tel:+38975321222" class="text-blue-600 hover:text-blue-800 transition">(+389) 75999-222</a>
                             </div>
                         </div>
                         
@@ -48,7 +48,7 @@
                             </svg>
                             <div>
                                 <h3 class="font-semibold text-gray-800">{{ __('messages.email_title') }}</h3>
-                                <a href="mailto:info@traksi.com" class="text-blue-600 hover:text-blue-800 transition">info@traksi.com</a>
+                                <a href="mailto:info@flexlogistics.com" class="text-blue-600 hover:text-blue-800 transition">info@flexlogistics.com</a>
                             </div>
                         </div>
                         
@@ -137,7 +137,7 @@
                         allowfullscreen="" 
                         loading="lazy" 
                         referrerpolicy="no-referrer-when-downgrade"
-                        title="Location of Traksi Ltd Headquarters">
+                        title="Location of Flex Logistics Ltd Headquarters">
                     </iframe>
                 </div>
             </div>

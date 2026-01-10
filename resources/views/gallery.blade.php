@@ -27,7 +27,7 @@
 
             <!-- Image Card 2: Logistics Fleet -->
             <div class="bg-white rounded-xl shadow-2xl overflow-hidden transition-all duration-300 hover:shadow-blue-500/50 hover:scale-[1.02]">
-                   <img src="{{ asset('images/image.jpg') }}" 
+                   <img src="{{ asset('images/truck2.png') }}" 
                      alt="Traksi Logistics Fleet" 
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-6">
@@ -49,7 +49,7 @@
 
             <!-- Image Card 4: Long Haul Truck -->
             <div class="bg-white rounded-xl shadow-2xl overflow-hidden transition-all duration-300 hover:shadow-blue-500/50 hover:scale-[1.02]">
-                 <img src="{{ asset('images/image.jpg') }}" 
+                 <img src="{{ asset('images/truck2.png') }}" 
                      alt="Traksi Long Haul Truck" 
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-6">
@@ -71,7 +71,7 @@
 
             <!-- Image Card 6: Secure Delivery -->
             <div class="bg-white rounded-xl shadow-2xl overflow-hidden transition-all duration-300 hover:shadow-blue-500/50 hover:scale-[1.02]">
-                <img src="{{ asset('images/image.jpg') }}" 
+                <img src="{{ asset('images/truck2.png') }}" 
                      alt="Traksi Secure Delivery" 
                      class="w-full h-64 object-cover transition-transform duration-500 hover:scale-110">
                 <div class="p-6">
