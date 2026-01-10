@@ -4,14 +4,18 @@ namespace App\Filament\Pages;
 
 use App\Models\Truck;
 use Filament\Pages\Page;
-use App\Models\TruckLocation;
-use Filament\Support\Icons\Heroicon;
 
 class TruckGpsMap extends Page
 {
     
-     protected string $view = 'filament.pages.truck-gps-map';
-   public function getTrucksWithLocations()
+    protected string $view = 'filament.pages.truck-gps-map';
+
+    public static function shouldRegisterNavigation(): bool
+    {
+        return false; // not showing in sidebar
+    }
+
+    public function getTrucksWithLocations()
     {
         return Truck::with('locations')->get()->map(function($truck) {
             return [
@@ -29,7 +33,7 @@ class TruckGpsMap extends Page
         });
     }
 
-    // Последна локација за auto-refresh
+    // Last location за auto-refresh
     public function getLatestTruckLocations()
     {
         return Truck::with(['locations' => function($query){
