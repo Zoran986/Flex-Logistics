@@ -1,66 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Flex Logisitcs is designed for a **single logistics company** that provides **vehicle delivery and transport services for other companies**.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+The application helps the delivery company:
+- Manage its **fleet of delivery vehicles**
+- Track **logistics operations** for external client companies
+- Create and manage **invoices per delivery**
+- Maintain operational data in a centralized admin system
 
-## About Laravel
+Traksi is **not a marketplace** and does not handle payments or user roles.  
+It is built for **internal use by one company** through a single admin panel.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The system is structured to scale in the future with features such as GPS tracking, reporting, and analytics.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🔄 Application Workflow
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This section describes the general workflow of the Traksi application.
 
-## Learning Laravel
+### 1️⃣ Create Truck
+- First you create truck by add new 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 2️⃣ Create Driver
+-  create driver and select truck the you have already create
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 3️⃣ Assigning a route
+- create route and select driver that will be driving that route
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 4️⃣ Create Company 
+- You can create new company that you will be driving for 
+- after createing company you can add cars that need to be transfer for that company
+- 
+### 5️⃣ Orders
+- here you can see all you orders(cars)
+- you can create new cars from the orders resource
+- and also you can assigned driver for each cars
 
-## Laravel Sponsors
+### 6️⃣ Invoice
+- at the end you can make new invoice
+- select the company
+- pick the cars
+- select driver and route
+- fill the other fileds save and in the invoice talbe you can print your PDF
+  
+### 7️⃣ Planned GPS Integration
+- GPS tracking will be added in a future version
+- Vehicles will report live location data
+- Route history and analytics will be available
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+  
+## 🚀 Installation & Setup
 
-### Premium Partners
+###  Clone the repository
+```bash
+git clone https://github.com/your-username/traksi.git
+cd traksi
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Install frontend dependencies
 
-## Contributing
+npm install
+npm run dev
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Database Setup
 
-## Code of Conduct
+php artisan:migrate
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Start the server
 
-## Security Vulnerabilities
+php artisan serve
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+php artisan serve
+- after enetring the wenpage 
