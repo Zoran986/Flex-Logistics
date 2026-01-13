@@ -1,4 +1,4 @@
-Flex Logisitcs is designed for a **single logistics company** that provides **vehicle delivery and transport services for other companies**.
+Traksi is designed for a **single logistics company** that provides **vehicle delivery and transport services for other companies**.
 
 The application helps the delivery company:
 - Manage its **fleet of delivery vehicles**
@@ -34,11 +34,11 @@ This section describes the general workflow of the Traksi application.
 - and also you can assigned driver for each cars
 
 ### 6️⃣ Invoice
-- at the end you can make new invoice
+- add new invoice
 - select the company
 - pick the cars
 - select driver and route
-- fill the other fileds save and in the invoice talbe you can print your PDF
+- fill the other fields save, and in the invoice talbe you can print your PDF
   
 ### 7️⃣ Planned GPS Integration
 - GPS tracking will be added in a future version
@@ -66,5 +66,4 @@ php artisan:migrate
 
 php artisan serve
 
-php artisan serve
-- after enetring the wenpage 
+
