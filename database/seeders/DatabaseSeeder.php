@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        User::factory()->create();
 
         /* $this->call([
         TruckLocationSeeder::class,
@@ -22,5 +22,6 @@ class DatabaseSeeder extends Seeder
         */
 
         $this->call(CompanySeeder::class);
-    }
+        $this->call(DemoDataSeeder::class);
+    }  
 }

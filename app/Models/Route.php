@@ -3,9 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Route extends Model
 {
+
+    use HasFactory;
     protected $fillable = [
         'company_id', 
         'driver_id', 
@@ -34,7 +37,7 @@ class Route extends Model
          static::creating(function ($route) {
         $year = now()->year;
 
-        // земи го последниот број за тековната година
+        // Find the last travel_order for the current year
         $last = Route::whereYear('created_at', $year)->max('travel_order');
 
         $route->travel_order = $last ? $last + 1 : 1;
