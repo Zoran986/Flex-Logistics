@@ -1,4 +1,5 @@
-Traksi is designed for a **single logistics company** that provides **vehicle delivery and transport services for other companies**.
+This is a simple web page with filament admin panel,
+is designed for a **single logistics company** that provides **vehicle delivery and transport services for other companies**.
 
 The application helps the delivery company:
 - Manage its **fleet of delivery vehicles**
@@ -6,7 +7,7 @@ The application helps the delivery company:
 - Create and manage **invoices per delivery**
 - Maintain operational data in a centralized admin system
 
-Traksi is **not a marketplace** and does not handle payments or user roles.  
+Flex Logictics is **not a marketplace** and does not handle payments or user roles.  
 It is built for **internal use by one company** through a single admin panel.
 
 The system is structured to scale in the future with features such as GPS tracking, reporting, and analytics.
@@ -34,11 +35,11 @@ This section describes the general workflow of the Traksi application.
 - and also you can assigned driver for each cars
 
 ### 6️⃣ Invoice
-- add new invoice
 - select the company
-- pick the cars
+- pick the cars (where you previous aassigned drivers in the order table)
 - select driver and route
-- fill the other fields save, and in the invoice talbe you can print your PDF
+- fill the other fields save,
+- and in the invoice talbe you can print your invoice PDF
   
 ### 7️⃣ Planned GPS Integration
 - GPS tracking will be added in a future version
@@ -60,10 +61,16 @@ npm run dev
 
 ### Database Setup
 
-php artisan:migrate
+php artisan:migrate fresh --seed
 
 ### Start the server
 
-php artisan serve
+to enter filament admin panel
+/admin    
+Email address*
+admin@gmail.com
+
+password
+12345678
 
 
